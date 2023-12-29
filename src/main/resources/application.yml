@@ -5,9 +5,6 @@ spring:
       hibernate:
         format_sql: false
     defer-datasource-initialization: true
-  h2:
-    console:
-      enabled: false
   http:
     encoding:
       charset: UTF-8
