@@ -1,0 +1,22 @@
+spring:
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+    defer-datasource-initialization: true
+  h2:
+    console:
+      enabled: false
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+jwt:
+  issuer: rlarnstns@gmail.com
