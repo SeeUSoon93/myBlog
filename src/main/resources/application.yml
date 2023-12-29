@@ -18,5 +18,3 @@ spring:
       client:
         registration:
           google:
-jwt:
-  issuer: rlarnstns@gmail.com
