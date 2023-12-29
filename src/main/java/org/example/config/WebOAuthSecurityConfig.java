@@ -2,7 +2,6 @@ package org.example.config;
 
 import lombok.RequiredArgsConstructor;
 
-import org.example.config.TokenAuthenticationFilter;
 import org.example.config.jwt.TokenProvider;
 import org.example.config.oauth.OAuth2AuthorizationRequestBasedOnCookieRepository;
 import org.example.config.oauth.OAuth2SuccessHandler;
@@ -22,6 +21,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import static org.springframework.boot.autoconfigure.security.servlet.PathRequest.toH2Console;
+
 
 @RequiredArgsConstructor
 @Configuration
